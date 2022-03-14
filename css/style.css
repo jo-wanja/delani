@@ -8,4 +8,21 @@
     text-align: center;
     padding-top:17%; 
     
-};
+}
+.header h1{
+   margin: 0.5em;
+   padding:0.2em;
+}
+
+.header p{
+  padding: 0.5em;
+}
+
+.header #mouse-click{
+  padding: 4em;
+}
+
+.about{
+  text-align: center;
+  margin: 4em;
+}
