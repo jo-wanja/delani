@@ -34,3 +34,101 @@
   margin: 2em;
   padding: 8em;
 }
+  
+.what-we-do{
+  padding: 4em;
+}
+
+.what-we-do h2{
+  text-align: center;
+  padding: 1em;
+}
+.hide{
+  display: none;
+}
+
+.show{
+  text-align: center;
+}
+
+.portfolio h2{
+  text-align: center;
+  padding: 1em;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left:5%;
+  margin-right:5%; 
+  margin-bottom: 3%;
+}
+.col-md-3 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.form{
+  background-image: url('../images/assets/backgrounds/c_image.jpg');
+  padding: 4em;
+ align-items: center;
+}
+
+.form h2{
+  text-align: center;
+  color: whitesmoke;
+}
+
+.transparent{
+  background: transparent;
+}
+
+.space{
+  margin: 2em;
+  border-color: whitesmoke;
+ 
+}
+
+
+.form-control::placeholder, ::placeholder { 
+  color: white; 
+}
+#MERGE2{
+  margin-left:30%;
+}
+
+footer{
+  text-align: center;
+  padding-top: 30px;
+
+}
+footer p{
+  margin-top: 10px;
+}
+
+#overlay,#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7{
+  display: none;
+  color: rgb(250, 227, 227);
+  width: 100%;
+  height: 100%;
+  background-color:rgba(10, 1, 1, 0.456);
+  position:absolute; 
+  top: 0px; 
+  left: 0px;
+  bottom: 2px;
+  right: 0px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  overflow: hidden;
+  border: 2px solid whitesmoke;
+  border-left: 5px solid whitesmoke;
+}
+
+
+
+
+
+
+
