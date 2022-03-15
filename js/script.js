@@ -1,4 +1,5 @@
 $(function(){
+  // hover effect
   let work = ['1','2','3','4','5','6','7','8']
   let over= ['1','2','3','4','5','6','7','8']
 $.each(work,function(i,value){
@@ -10,6 +11,25 @@ $.each(work,function(i,value){
   })
   })
   })
+// services toggle
+let show =['design-image','development-image','product-image']
+let hide=['design','development','product']
+  $.each(show,function(i,val){
+    $.each(hide,function(i,val){})
+    $('#'+show[i]).click(function(){
+      $('#'+show[i]).toggle();
+      $('#'+hide[i]).toggle();
+    })
+
+    $('#'+hide[i]).click(function(){
+      $('#'+hide[i]).toggle();
+      $('#'+show[i]).toggle();
+    });
+  })
+// subscription
+
+
+
 })
 
 
