@@ -26,10 +26,14 @@ let hide=['design','development','product']
       $('#'+show[i]).toggle();
     });
   })
-// subscription
+// subMIT
+$('form').submit(function(event){
+  event.preventDefault();
 
+  let jina = $("input#MERGE2").val()
+  let email= $("input#MERGE0").val()
+      console.log(jina)
+      alert("Thank you "+jina+" for the feedback")
+    })
 
-
-})
-
-
+ })
