@@ -28,7 +28,7 @@ let hide=['design','development','product']
   })
 // subMIT
 $('form').submit(function(event){
-  event.preventDefault();
+  event.preventDefault(); 
 
   let jina = $("input#MERGE2").val()
   let email= $("input#MERGE0").val()
