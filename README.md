@@ -16,7 +16,7 @@ CSS & HTML & JAVASCRIPT
 |  Enter your name  |   Josephine Wanja|     |
 | Enter your Email Address  | jojo@gmail.com |   |
 | Enter your message or comment   |  i would love to hire you    |     |
-| Press Submit|     |alert (  Thank you Josephine Wanja for the feedback.)|
+| Press Subscribe|     |alert (  Thank you Josephine Wanja for the feedback.)|
 
 ## Support and contact details
 you can reach me via email at josephine.wanja@student.moringaschool.com
